@@ -8,7 +8,8 @@ function UseStateHook() {
     //   document.getElementById("input-element") as HTMLInputElement
     // ).value;
     // setName(updatedName);
-    setName(event.target?.value);
+    let updatedName = event.target.value;
+    setName(updatedName);
   }
 
   return (
