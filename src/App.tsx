@@ -1,11 +1,11 @@
 import "./App.css";
-import ProductParent from "./components/comp-communication/product-parent";
+import UseStateHook from "./hooks/useStateHook";
 
 function App() {
   return (
     <>
       <h1>Welcome to React</h1>
-      <ProductParent />
+      <UseStateHook />
     </>
   );
 }
