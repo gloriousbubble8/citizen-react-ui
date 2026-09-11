@@ -1,11 +1,11 @@
 import "./App.css";
-import UseStateHook from "./hooks/useStateHook";
+import UseEffectHook from "./hooks/useEffectHook";
 
 function App() {
   return (
     <>
       <h1>Welcome to React</h1>
-      <UseStateHook />
+      <UseEffectHook />
     </>
   );
 }
