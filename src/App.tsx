@@ -1,11 +1,11 @@
 import "./App.css";
-import UseEffectHook from "./hooks/useEffectHook";
+import ApiFetchHook from "./hooks/ApiFetchHook";
 
 function App() {
   return (
     <>
       <h1>Welcome to React</h1>
-      <UseEffectHook />
+      <ApiFetchHook />
     </>
   );
 }
