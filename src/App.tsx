@@ -1,11 +1,11 @@
 import "./App.css";
-import ApiFetchHook from "./hooks/ApiFetchHook";
+import CitizenHook from "./hooks/CitizenHook";
 
 function App() {
   return (
     <>
       <h1>Welcome to React</h1>
-      <ApiFetchHook />
+      <CitizenHook />
     </>
   );
 }
